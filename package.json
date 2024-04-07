@@ -1,0 +1,15 @@
+{
+  "name": "auth-code",
+  "version": "1.0.0",
+  "description": "documentation for Auth code flow",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "transpile": "node index.js"
+  },
+  "author": "Vinayak Adkoli",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^11"
+  }
+}

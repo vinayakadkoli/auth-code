@@ -1,0 +1,7 @@
+<p>One of the (sometimes) hidden champions in the SAP product universe is SAP Business One (B1) – an ERP solution for SME customers that has been around for almost 20 years now. The age doesn’t make it irrelevant though as there still is a strong customer base happily working on B1 as is the case for one of my recent customers: Actovent and their flagship solution “Frischluftmanager“. The solution was developed on the SAP Business Technology Platform (BTP) accessing the B1 Service Layer and therefore being dependent on it. To alleviate the dependency and reduce load on the B1 system, the decision was made, to the decouple the extension from the B1 system. The main challenge was to keep up to date with relevant data such as Business Partner data as well as Order Data. Therefore an event-driven architecture was established to integrate the solution with the B1 system.</p>
+<p>The benefits of the solution are:</p>
+<p>Reduced load on the B1 system (push instead of pull)
+Near-real-time current master / customer data in BTP
+Easy to extend on further use cases (additional events)
+All the other advantages of an event-driven architecture
+The Business One Integration framework (B1If) is the key integration channel for B1 and our use case. The integration framework provides an infrastructure that allows for the communication and interaction between software applications such as SAP</p>
